@@ -3,7 +3,7 @@ Show your Medium posts (or others) right in your Angular app.
 
 This is just an Angular wrapper component around https://medium-widget.pixelpoint.io
 
-##API REFERENCE for ngx-medium-widget:
+## API REFERENCE for ngx-medium-widget:
 
 1 - Import the module.
   import { MediumWidgetModule } from 'ngx-medium-widget';
@@ -15,9 +15,9 @@ This is just an Angular wrapper component around https://medium-widget.pixelpoin
   })
   export class sampleModule { }
 
-You can check a working example here: [https://stackblitz.com/edit/ngx-medium-posts-widget]
+You can check a working example here: https://stackblitz.com/edit/ngx-medium-posts-widget
 
-##COMPONENT: MediumWidgetComponent
+## COMPONENT: MediumWidgetComponent
 
 ```
 <ngx-medium-widget resource="https://medium.com/@aleixsuau"
