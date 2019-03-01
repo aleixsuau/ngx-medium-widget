@@ -29,6 +29,9 @@ export class MediumWidgetService {
       script.addEventListener('load', () => this.init(resource, postsPerLine, postsLimit, pictureSize, postfields));
 
       document.getElementsByTagName('script')[0].parentNode.appendChild(script);
+    } else {
+      window['MediumWidget'].unmount();
+      this.init(resource, postsPerLine, postsLimit, pictureSize, postfields);
     }
   }
 
