@@ -1,8 +1,9 @@
+# NGX-MEDIUM-WIDGET
 Show your Medium posts (or others) right in your Angular app.
 
 This is just an Angular wrapper component around https://medium-widget.pixelpoint.io
 
-API REFERENCE for ngx-medium-widget:
+##API REFERENCE for ngx-medium-widget:
 
 1 - Import the module.
   import { MediumWidgetModule } from 'ngx-medium-widget';
@@ -14,44 +15,46 @@ API REFERENCE for ngx-medium-widget:
   })
   export class sampleModule { }
 
-You can check a working example here: https://stackblitz.com/edit/ngx-medium-posts-widget
+You can check a working example here: [https://stackblitz.com/edit/ngx-medium-posts-widget]
 
-COMPONENT: MediumWidgetComponent
+##COMPONENT: MediumWidgetComponent
 
-  <ngx-medium-widget resource="https://medium.com/@aleixsuau"
-                     postsLimit="10"
-                     postsPerLine="3"
-                     pictureSize="small"
-                     [postfields]="['description', 'author', 'claps']"
-                     postRatio="square">
-  </ngx-medium-widget>
-
-@Input()
-resource: string;
-// Url of the posts resource (ie: https://medium.com/@aleixsuau)
+```
+<ngx-medium-widget resource="https://medium.com/@aleixsuau"
+                   postsLimit="10"
+                   postsPerLine="3"
+                   pictureSize="small"
+                   [postfields]="['description', 'author', 'claps']"
+                   postRatio="square">
+</ngx-medium-widget>
+```
 
 @Input()
-postsLimit?: number;
-// Number of total posts to show
-// Defaults to 100
+**resource**: string;
+- Url of the posts resource (ie: https://medium.com/@aleixsuau)
 
 @Input()
-postsPerLine?: number;
-// Number of posts to show per line
-// Defaults to 2
+**postsLimit**?: number;
+- Number of total posts to show
+- Defaults to 100
 
 @Input()
-pictureSize?: 'big' | 'small';
-// Size of the post's picture
-// Defaults to 'big'
+**postsPerLine**?: number;
+- Number of posts to show per line
+- Defaults to 2
 
 @Input()
-postfields?: 'description' | 'author' | 'claps' | 'publishAt'[];
-// Array of post's fields to show.
-// Defaults to ['description', 'author', 'claps', 'publishAt']
+**pictureSize**?: 'big' | 'small';
+- Size of the post's picture
+- Defaults to 'big'
 
 @Input()
-postRatio?: 'original' | 'landscape' | 'square';
-// Post ratio.
-// Defaults to 'landscape'
+**postfields**?: 'description' | 'author' | 'claps' | 'publishAt'[];
+- Array of post's fields to show.
+- Defaults to ['description', 'author', 'claps', 'publishAt']
+
+@Input()
+**postRatio**?: 'original' | 'landscape' | 'square';
+- Post ratio.
+- Defaults to 'landscape'
 
