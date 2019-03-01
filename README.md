@@ -8,14 +8,20 @@ This is just an Angular wrapper component around https://medium-widget.pixelpoin
 ## API REFERENCE for ngx-medium-widget:
 
 1 - Import the module.
+
+  ```
   import { MediumWidgetModule } from 'ngx-medium-widget';
+  ```
 
 2 - Add it to the module where you want to use it:
+
+  ```
   @NgModule({
     declarations: [...],
     imports: [ MediumWidgetModule],
   })
   export class sampleModule { }
+  ```
 
 You can check a working example here: https://stackblitz.com/edit/ngx-medium-posts-widget
 
