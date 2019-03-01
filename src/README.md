@@ -14,7 +14,7 @@ API REFERENCE for ngx-medium-widget:
   })
   export class sampleModule { }
 
-You can check a working sample here: https://stackblitz.com/edit/ngx-medium-posts-widget
+You can check a working example here: https://stackblitz.com/edit/ngx-medium-posts-widget
 
 COMPONENT: MediumWidgetComponent
 
