@@ -7,7 +7,7 @@ This is just an Angular wrapper component around https://medium-widget.pixelpoin
 
 ## API REFERENCE for ngx-medium-widget:
 
-1 - Import the module.
+1 - Import the module:
 
   ```
   import { MediumWidgetModule } from 'ngx-medium-widget';
