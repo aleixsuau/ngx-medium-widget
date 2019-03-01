@@ -6,11 +6,11 @@
   "license" : "SEE LICENSE IN LICENSE",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/t-palmer/ng-example-library"
+    "url" : "https://github.com/aleixsuau/ngx-medium-widget"
   },
   "author": "@aleixsuau",
   "peerDependencies": {
     "@angular/common": "^7.1.0",
     "@angular/core": "^7.1.0"
-  },
+  }
 }
