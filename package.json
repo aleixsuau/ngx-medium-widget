@@ -1,0 +1,16 @@
+{
+  "name": "ngx-medium-widget",
+  "version": "1.0.0",
+  "description": "Show your Medium posts (or others) right in your Angular app. This is just an Angular wrapper component around https://medium-widget.pixelpoint.io",
+  "keywords" :["Angular","Library", "Medium", "Posts", "Articles", "Medium Widget", "PixelPoint"],
+  "license" : "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/t-palmer/ng-example-library"
+  },
+  "author": "@aleixsuau",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  },
+}
